@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: libopaque_ke_cs_${{ matrix.name }}
-          path: target/${{ matrix.target }}/release/libopaque_ke_cs.{dll,so,dylib}
+          path: target/${{ matrix.target }}/libopaque_ke_cs.{dll,so,dylib}
