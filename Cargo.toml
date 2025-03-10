@@ -8,6 +8,7 @@ crate-type = ["cdylib"]
 name = "opaque_ke_cs"
 
 [dependencies]
+opaque-ke = "3.0.0"
 uniffi = { version = "0.25.0", features = ["build", "bindgen"] }
 
 [build-dependencies]
