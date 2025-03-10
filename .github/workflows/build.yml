@@ -34,5 +34,5 @@ jobs:
       - name: Upload Binary
         uses: actions/upload-artifact@v4
         with:
-          name: target/${{ matrix.target }}/release/${{ matrix.artifact }}
-          path: target/release/${{ matrix.output }}
+          path: target/${{ matrix.target }}/release/${{ matrix.artifact }}
+          name: target/release/${{ matrix.output }}
