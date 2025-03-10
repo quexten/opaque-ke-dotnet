@@ -31,6 +31,8 @@ jobs:
  
       - name: Build Binary
         run: ${{ matrix.command }} build --verbose --locked --release --target ${{ matrix.target }}
+      - name: show files
+        run: ls -la target/release/
       - name: Upload Binary
         uses: actions/upload-artifact@v4
         with:
