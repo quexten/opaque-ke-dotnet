@@ -1,0 +1,3 @@
+namespace opaque_ke {
+  string hello_ffi();
+};
